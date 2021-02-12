@@ -51,8 +51,8 @@ public class App {
 
         total = 0;
         for (Electrodomestico i: electrodomesticos) {
-            if (i instanceof Nevera) {
-                total = total + ((Nevera) i).getValorTotalNevera();
+            if (i instanceof Otros) {
+                total = total + ((Otros) i).getValorTotalOtro();
             }
         }
         System.out.println("El precio total de otros electrodomesticos es de:   " + total);
