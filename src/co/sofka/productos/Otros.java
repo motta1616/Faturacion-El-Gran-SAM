@@ -10,6 +10,10 @@ public class Otros extends Electrodomestico {
         super(consumo, procedencia);
     }
 
+    public int getValorTotalOtro() {
+        return valorTotalOtro;
+    }
+
     public void CalcularPrecioOtro() {
         valorTotalOtro = getValorBase();
     }
